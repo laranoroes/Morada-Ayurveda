@@ -1,0 +1,261 @@
+/*font-family: 'Abhaya Libre', serif;
+font-family: 'Barlow', sans-serif;
+background: #E5E5E5;
+caixas: F9F6F3
+texto 605410
+botao final: C6B363
+texto sugerido: 8B9A8F*/
+
+body {
+background: #F9F6F3;
+font-family: 'Abhaya Libre', serif;
+}
+.caixa {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 50px 0 0 50px;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #605410;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav a:hover {
+    color: #C6B363;
+}
+
+.caixa-corpo {
+    position: relative;
+    width: 690px;
+    margin: 0 auto;
+}
+.titulo-principal {
+    font-size: 48px;
+    margin: 0 0px 30px 0px;
+    padding-top: 64px;
+    color: #605410;
+}
+
+.texto {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: #605410;
+    margin: 0 0 40px 0;
+}
+.caixa-corpo2 {
+    position: relative;
+    width: 690px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.dosha-logo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+div.dosha h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1em;
+    color: #605410;
+    margin-top: 48px;
+}
+
+.dosha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+}
+
+.fundo-branco {
+    background: white;
+}
+
+.caixa-corpo3 {
+    position: relative;
+    width: 690px;
+    margin: 0 auto;
+}
+
+.titulo-comecar {
+    font-size: 48px;
+    margin: 0 0px 10px 0px;
+    padding-top: 96px;
+    color: #605410;
+}
+.titulo-lateral {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: #605410;
+    margin-bottom: 10px
+}
+
+#linha {
+    border-bottom: 1px solid #605410;
+}
+
+.titulo-secundario {
+    font-size: 40px;
+    color: #605410;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    padding: 10px 0;
+}
+
+.dieta-lista div{
+    background: #F9F6F3;
+    height: 74px;
+    margin-top: 12px;
+}
+
+.dieta-lista li {
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 29px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: #605410;
+}
+
+.rotina li {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: #605410;
+    margin-bottom: 2em;
+}
+
+.rotina li strong {
+    font-weight: bold;
+}
+
+.rotina li a {
+    color: #C6B363;
+}
+
+.ver-mais {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: #605410;
+    padding-bottom: 70px;
+}
+
+.ver-mais:hover {
+    color: #C6B363;
+    cursor: pointer;
+}
+
+.caixa-corpo3 {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.karnapurana {
+    width: 400px;
+    display: inline-block;
+}
+
+.karnapurana div {
+    width: 400px;
+    height: 280px;
+}
+
+.karnapurana h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1em;
+    color: #605410;
+    margin-top: 48px;
+}
+
+.nasya {
+    width: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nasya div {
+    width: 400px;
+    height: 280px;
+}
+
+.nasya h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 1em;
+    color: #605410;
+    margin-top: 48px;
+}
+
+.input-padrao, .input-padrao2 {
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    padding-top: 30px;
+    width: 43%;
+    color: #8B9A8F;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #8B9A8F;
+}
+
+.input-padrao2 {
+    position: absolute;
+    right: 0;
+}
+
+
+.enviar {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.enviar input {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    background: #C6B363;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+}
+
+.enviar input:hover {
+    cursor: pointer;
+}
+
