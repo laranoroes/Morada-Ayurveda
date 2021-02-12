@@ -114,6 +114,11 @@ div.dosha h3 {
     margin-bottom: 10px
 }
 
+.titulo-lateral:hover {
+    color: #C6B363;
+    cursor: pointer;
+}
+
 #linha {
     border-bottom: 1px solid #605410;
 }
@@ -139,6 +144,21 @@ div.dosha h3 {
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
     color: #605410;
+}
+
+.seta {
+    color: #605410;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.seta:hover {
+    color: #C6B363;
+    cursor: pointer;
 }
 
 .rotina li {
@@ -253,9 +273,11 @@ div.dosha h3 {
     text-transform: uppercase;
     font-size: 14px;
     border: none;
+    transition: 900ms;
 }
 
 .enviar input:hover {
     cursor: pointer;
+    background-color: #8B9A8F;
 }
 
