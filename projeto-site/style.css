@@ -10,7 +10,8 @@ body {
   background: #f9f6f3;
   font-family: "Abhaya Libre", serif;
 }
-.caixa {
+
+header {
   position: relative;
   width: 1000px;
   margin: 0 auto;
