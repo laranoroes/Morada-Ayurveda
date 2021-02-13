@@ -47,6 +47,19 @@ nav a:hover {
   width: 690px;
   margin: 0 auto;
 }
+
+.caixa-corpo article:nth-of-type(1) {
+    border: 1px solid red;
+}
+
+.caixa-corpo article:nth-of-type(2) {
+    border: 1px solid green;
+}
+
+.caixa-corpo article:nth-of-type(3) {
+    border: 1px solid blue;
+}
+
 .titulo-principal {
   font-size: 48px;
   margin: 0 0px 30px 0px;
